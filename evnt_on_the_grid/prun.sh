@@ -1,0 +1,3 @@
+prun --exec="python generate.py %IN" --athenaTag 17.2.13.10 --outputs EVNT.root --inDS user.mtm.mc12_8TeV.powheg.300001.ZeeH_SM_M125.LHE --outDS user.ideal.mc12_8TeV.powheg.300001.ZeeH_SM_M125.EVNT --nFilesPerJob=1
+prun --exec="python generate.py %IN" --athenaTag 17.2.13.10 --outputs EVNT.root --inDS user.mtm.mc12_8TeV.powheg.300002.ZmumuH_SM_M125.LHE --outDS user.ideal.mc12_8TeV.powheg.300002.ZmumuH_SM_M125.EVNT --nFilesPerJob=1
+prun --exec="python generate.py %IN" --athenaTag 17.2.13.10 --outputs EVNT.root --inDS user.mtm.mc12_8TeV.powheg.300003.ZtautauH_SM_M125.LHE --outDS user.ideal.mc12_8TeV.powheg.300003.ZtautauH_SM_M125.EVNT --nFilesPerJob=1

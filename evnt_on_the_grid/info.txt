@@ -1,0 +1,9 @@
+generate.py and prun.sh were originally created to send jobs to the grid for the ggZH production. The configuration files are the jobConfig_ggZH_Zto(ee,mumu,tautau).py
+
+generateZH.py and prunZH.sh were copies of this (and modified) to submit the jobs to the grid for the Powheg events I created - to shower in Pythia vs. Herwigpp vs. Jimmy for the UE uncertainty studies. The jobs = showering in Pythia, Herwigpp, Jimmy and then produce truth D3PDs from these EVNT files.
+
+LHE_files: contains my generated powheg LHE files for the UE uncertainty studies. I will then shower these in Pythia, Herwig++, and Jimmy and compare acceptances. I move the tarballs inside this directory onto the grid, and then run the Generate_trf transform to do the showering. Then I do the Reco_trf transform to produce truth D3PDs.
+
+jobConfig_ZH_Ztoee_Pythia8.py : are for the Pythia showering of the powheg events for UE studies
+jobConfig_ZH_Ztoee_Herwigpp.py: are for the Herwig++ showering of the powheg events
+jobConfig_ZH_Ztoee_Jimmy.py: are for the Jimmy showering of the powheg events
