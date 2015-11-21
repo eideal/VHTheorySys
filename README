@@ -1,0 +1,9 @@
+README for VHTheorySys
+
+Code for computing the underlying event uncertainties and the scale and PDF uncertainty on the signal acceptance. Uncertainties were quoted for each VH category (WHhh, WHlh, ZHhh, ZHlh). Signal event yields were compared when events were generated with different MC generators, and the largest difference with respect to a nominal generator was assigned as a normalization signal uncertainty.
+
+----
+Scripts
+----
+
+All qq* files emulate event selections (qqWH for WHhh, qqWH_lh for WHlh, qqZH for ZHhh, and qqZH_lh for ZHlh). Jimmy and Pythia8 indicate the MC generator used for simulating the parton shower. Pythia8 is the nominal generator since the Monte Carlo samples used in the analysis were showered in Pythia. These scripts were run on self-generated Monte Carlo samples that were not run through ATLAS reconstruction.
