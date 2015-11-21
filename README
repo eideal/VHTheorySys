@@ -7,3 +7,5 @@ Scripts
 ----
 
 All qq* files emulate event selections (qqWH for WHhh, qqWH_lh for WHlh, qqZH for ZHhh, and qqZH_lh for ZHlh). Jimmy and Pythia8 indicate the MC generator used for simulating the parton shower. Pythia8 is the nominal generator since the Monte Carlo samples used in the analysis were showered in Pythia. These scripts were run on self-generated Monte Carlo samples that were not run through ATLAS reconstruction.
+
+computeCompare.py: a simple script to compute the QCD scale uncertainty on the acceptance for each analysis category. The renormalization and factorization scales were varied around the Higgs mass and event selections were run on each of these varied samples. The largest deviation from the nominal samples was assigned as the overall uncertainty for that category.
